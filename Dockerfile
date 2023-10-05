@@ -28,4 +28,4 @@ RUN chmod +x /usr/src/app/entrypoint.sh
 EXPOSE 8080
 
 # Run the app
-CMD ["/bin/bash", "/usr/src/app/entrypoint.sh"]
+ENTRYPOINT ["/bin/bash", "/usr/src/app/entrypoint.sh"]
